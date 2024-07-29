@@ -15,8 +15,6 @@ const Products = () => {
       setIsError(`Error : ${error.message}`);
     }
   };
-  console.log(products);
-  console.log(isError);
   useEffect(() => {
     fetchProduct();
   }, [page]);

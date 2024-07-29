@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <h1>Products</h1>
       <Suspense fallback="Loading Products.....">
-        <Products />
+        <LazyProduct />
       </Suspense>
     </div>
   );
